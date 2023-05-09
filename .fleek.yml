@@ -14,6 +14,7 @@ overlays: {}
 packages:
     - helix
     - flutter
+    - android-studio
 paths:
     - $HOME/bin
     - $HOME/.local/bin

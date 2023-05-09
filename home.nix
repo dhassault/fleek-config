@@ -21,6 +21,7 @@
     # user selected packages
     pkgs.helix
     pkgs.flutter
+    pkgs.android-studio
     # Fleek Bling
     pkgs.git
     pkgs.htop
