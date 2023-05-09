@@ -13,6 +13,7 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
+    - flutter
 paths:
     - $HOME/bin
     - $HOME/.local/bin

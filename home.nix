@@ -20,6 +20,7 @@
   home.packages = [
     # user selected packages
     pkgs.helix
+    pkgs.flutter
     # Fleek Bling
     pkgs.git
     pkgs.htop
