@@ -26,6 +26,7 @@
     pkgs.python39
     pkgs.yarn
     pkgs.nerdfonts
+    pkgs.tree
     # Fleek Bling
     pkgs.git
     pkgs.htop

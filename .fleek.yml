@@ -19,6 +19,7 @@ packages:
     - python39
     - yarn
     - nerdfonts
+    - tree
 paths:
     - $HOME/bin
     - $HOME/.local/bin
