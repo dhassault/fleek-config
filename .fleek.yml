@@ -18,6 +18,7 @@ packages:
     - poetry
     - python39
     - yarn
+    - nerdfonts
 paths:
     - $HOME/bin
     - $HOME/.local/bin

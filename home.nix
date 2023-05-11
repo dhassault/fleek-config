@@ -25,6 +25,7 @@
     pkgs.poetry
     pkgs.python39
     pkgs.yarn
+    pkgs.nerdfonts
     # Fleek Bling
     pkgs.git
     pkgs.htop
