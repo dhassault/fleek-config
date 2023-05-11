@@ -22,6 +22,7 @@
     pkgs.helix
     pkgs.nodejs
     pkgs.rustup
+    pkgs.poetry
     # Fleek Bling
     pkgs.git
     pkgs.htop
