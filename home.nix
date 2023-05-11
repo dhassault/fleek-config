@@ -24,6 +24,7 @@
     pkgs.rustup
     pkgs.poetry
     pkgs.python39
+    pkgs.yarn
     # Fleek Bling
     pkgs.git
     pkgs.htop

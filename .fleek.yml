@@ -17,6 +17,7 @@ packages:
     - rustup
     - poetry
     - python39
+    - yarn
 paths:
     - $HOME/bin
     - $HOME/.local/bin
