@@ -1,6 +1,6 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
-bling: high
+bling: default
 ejected: false
 flakedir: .local/share/fleek
 git:
@@ -13,18 +13,16 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
-    - flutter
-    - android-studio
 paths:
     - $HOME/bin
     - $HOME/.local/bin
 programs:
     - dircolors
-shell: bash
+shell: zsh
 systems:
-    - arch: x86_64
-      hostname: flow-x13
-      os: linux
+    - arch: aarch64
+      hostname: yanns-MBP
+      os: darwin
       username: yann
 unfree: true
 users:

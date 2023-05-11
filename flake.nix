@@ -24,8 +24,8 @@
     
     homeConfigurations = {
     
-      "yann@flow-x13" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
+      "yann@yanns-MBP" = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.aarch64-darwin; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
         modules = [
           ./home.nix 
@@ -35,13 +35,13 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./flow-x13/flow-x13.nix
-          ./flow-x13/user.nix
+          ./yanns-MBP/yanns-MBP.nix
+          ./yanns-MBP/user.nix
           # self-manage fleek
           ({
            nixpkgs.overlays = [];
            home.packages = [
-            fleek.packages.x86_64-linux.default
+            fleek.packages.aarch64-darwin.default
           ];
           })
 
