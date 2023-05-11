@@ -23,6 +23,7 @@
     pkgs.nodejs
     pkgs.rustup
     pkgs.poetry
+    pkgs.python39
     # Fleek Bling
     pkgs.git
     pkgs.htop

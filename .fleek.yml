@@ -16,6 +16,7 @@ packages:
     - nodejs
     - rustup
     - poetry
+    - python39
 paths:
     - $HOME/bin
     - $HOME/.local/bin
