@@ -1,6 +1,6 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
-bling: default
+bling: high
 ejected: false
 flakedir: .local/share/fleek
 git:
