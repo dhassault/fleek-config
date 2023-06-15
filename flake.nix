@@ -35,8 +35,8 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./yanns-MBP/yann.nix
-          ./yanns-MBP/host.nix
+          ./yanns-MBP/yanns-MBP.nix
+          ./yanns-MBP/user.nix
           # self-manage fleek
           ({
            nixpkgs.overlays = [];
@@ -59,8 +59,8 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./yanns-MacBook-Pro.local/yann.nix
-          ./yanns-MacBook-Pro.local/host.nix
+          ./yanns-MacBook-Pro.local/yanns-MacBook-Pro.local.nix
+          ./yanns-MacBook-Pro.local/user.nix
           # self-manage fleek
           ({
            nixpkgs.overlays = [];
