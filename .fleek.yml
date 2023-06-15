@@ -1,6 +1,8 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
 bling: high
+blocklist: []
+byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
@@ -31,6 +33,11 @@ systems:
       hostname: yanns-MBP
       os: darwin
       username: yann
+    - arch: aarch64
+      hostname: yanns-MacBook-Pro.local
+      os: darwin
+      username: yann
+track: ""
 unfree: true
 users:
     - email: yann.leguilly@gmail.com
