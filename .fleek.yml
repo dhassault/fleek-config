@@ -1,6 +1,8 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
 bling: default
+blocklist: []
+byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
@@ -13,6 +15,7 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
+    - atuin
 paths:
     - $HOME/bin
     - $HOME/.local/bin
@@ -24,6 +27,7 @@ systems:
       hostname: yanns-MacBook-Pro.local
       os: darwin
       username: yann
+track: ""
 unfree: true
 users:
     - email: yann.leguilly@gmail.com
