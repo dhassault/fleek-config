@@ -1,8 +1,6 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
 bling: high
-blocklist: []
-byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
@@ -22,6 +20,7 @@ packages:
     - yarn
     - nerdfonts
     - tree
+    - distrobox
 paths:
     - $HOME/bin
     - $HOME/.local/bin
@@ -37,7 +36,6 @@ systems:
       hostname: yanns-MacBook-Pro.local
       os: darwin
       username: yann
-track: ""
 unfree: true
 users:
     - email: yann.leguilly@gmail.com

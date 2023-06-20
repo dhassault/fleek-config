@@ -27,6 +27,7 @@
     pkgs.yarn
     pkgs.nerdfonts
     pkgs.tree
+    pkgs.distrobox
     # Fleek Bling
     pkgs.git
     pkgs.htop
