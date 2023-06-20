@@ -23,6 +23,7 @@ packages:
     - distrobox
     - python39
     - podman
+    - yarn
 paths:
     - $HOME/bin
     - $HOME/.local/bin
