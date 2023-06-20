@@ -27,6 +27,7 @@
     pkgs.tree
     pkgs.distrobox
     pkgs.python39
+    pkgs.podman
     # Fleek Bling
     pkgs.git
     pkgs.htop
