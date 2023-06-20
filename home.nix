@@ -21,6 +21,12 @@
     # user selected packages
     pkgs.helix
     pkgs.atuin
+    pkgs.rustup
+    pkgs.nodejs
+    pkgs.nerdfonts
+    pkgs.tree
+    pkgs.distrobox
+    pkgs.python39
     # Fleek Bling
     pkgs.git
     pkgs.htop

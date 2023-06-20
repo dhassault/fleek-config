@@ -16,6 +16,12 @@ overlays: {}
 packages:
     - helix
     - atuin
+    - rustup
+    - nodejs
+    - nerdfonts
+    - tree
+    - distrobox
+    - python39
 paths:
     - $HOME/bin
     - $HOME/.local/bin
