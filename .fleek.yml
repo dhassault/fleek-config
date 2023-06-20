@@ -1,6 +1,6 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
-bling: default
+bling: high
 blocklist: []
 byo_git: false
 ejected: false
