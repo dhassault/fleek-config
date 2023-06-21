@@ -35,14 +35,11 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./yanns-MacBook-Pro.local/yanns-MacBook-Pro.local.nix
-          ./yanns-MacBook-Pro.local/user.nix
+          ./yanns-MacBook-Pro.local/yann.nix
+          ./yanns-MacBook-Pro.local/custom.nix
           # self-manage fleek
           ({
            nixpkgs.overlays = [];
-           home.packages = [
-            fleek.packages.aarch64-darwin.default
-          ];
           })
 
         ];
@@ -59,14 +56,11 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./flow-x13/flow-x13.nix
-          ./flow-x13/user.nix
+          ./flow-x13/yann.nix
+          ./flow-x13/custom.nix
           # self-manage fleek
           ({
            nixpkgs.overlays = [];
-           home.packages = [
-            fleek.packages.x86_64-linux.default
-          ];
           })
 
         ];
