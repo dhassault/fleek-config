@@ -48,6 +48,30 @@
         ];
       };
       
+      "yann@flow-x13" = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
+        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
+        modules = [
+          ./home.nix 
+          ./path.nix
+          ./shell.nix
+          ./user.nix
+          ./aliases.nix
+          ./programs.nix
+          # Host Specific configs
+          ./flow-x13/flow-x13.nix
+          ./flow-x13/user.nix
+          # self-manage fleek
+          ({
+           nixpkgs.overlays = [];
+           home.packages = [
+            fleek.packages.x86_64-linux.default
+          ];
+          })
+
+        ];
+      };
+      
     };
   };
 }
