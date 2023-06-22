@@ -24,27 +24,6 @@
     
     homeConfigurations = {
     
-      "yann@yanns-MacBook-Pro.local" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.aarch64-darwin; # Home-manager requires 'pkgs' instance
-        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
-        modules = [
-          ./home.nix 
-          ./path.nix
-          ./shell.nix
-          ./user.nix
-          ./aliases.nix
-          ./programs.nix
-          # Host Specific configs
-          ./yanns-MacBook-Pro.local/yann.nix
-          ./yanns-MacBook-Pro.local/custom.nix
-          # self-manage fleek
-          ({
-           nixpkgs.overlays = [];
-          })
-
-        ];
-      };
-      
       "yann@flow-x13" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config

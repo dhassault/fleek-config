@@ -1,6 +1,8 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
-bling: high
+bling: default
+blocklist: []
+byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
@@ -13,30 +15,18 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - helix
-    - atuin
-    - rustup
-    - nodejs
-    - nerdfonts
-    - tree
-    - distrobox
-    - python39
-    - podman
-    - yarn
 paths:
     - $HOME/bin
     - $HOME/.local/bin
 programs:
     - dircolors
-shell: zsh
+shell: bash
 systems:
-    - arch: aarch64
-      hostname: yanns-MacBook-Pro.local
-      os: darwin
-      username: yann
     - arch: x86_64
       hostname: flow-x13
       os: linux
       username: yann
+track: nixos-unstable
 unfree: true
 users:
     - email: yann.leguilly@gmail.com

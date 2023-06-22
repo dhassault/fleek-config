@@ -20,15 +20,6 @@
   home.packages = [
     # user selected packages
     pkgs.helix
-    pkgs.atuin
-    pkgs.rustup
-    pkgs.nodejs
-    pkgs.nerdfonts
-    pkgs.tree
-    pkgs.distrobox
-    pkgs.python39
-    pkgs.podman
-    pkgs.yarn
     # Fleek Bling
     pkgs.git
     pkgs.htop
@@ -37,13 +28,6 @@
     pkgs.fzf
     pkgs.ripgrep
     pkgs.vscode
-    pkgs.lazygit
-    pkgs.jq
-    pkgs.yq
-    pkgs.neovim
-    pkgs.neofetch
-    pkgs.btop
-    pkgs.cheat
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 
